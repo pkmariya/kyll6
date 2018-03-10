@@ -1,0 +1,101 @@
+
+html, body {
+	margin: 0; 
+	padding: 0;
+}
+
+body {
+	font-family: Segoe UI;
+	font-size: 16px;
+	background-color: lightgray; 
+}
+
+header, footer {
+	background-color:lightgreen; 
+	border:solid 1.5px Green; 
+	border-radius:5px;
+	padding: 5px; 
+	margin: 5px; 
+}
+			
+h1{
+	color:Green; 
+	font-size:40px; 
+	font-family:Garamond;
+}
+
+header nav {
+		float: right; 
+}
+
+header nav li {
+	display: inline;	
+}
+
+nav ul li a {
+	color: green; 
+	font-weight: bold;
+}
+
+#mainSection {
+	border: solid 1px;
+	border-radius: 5px; 
+	margin: 5px;
+	padding: 5px; 
+}
+
+#mainSection label {
+	font-weight: bold;  
+}
+
+#mainSection input [type=text], 
+#mainSection select {
+	width: 150px; 
+}
+
+.simpleForm {
+	border: solid 1px lightgray;
+	border-radius: 5px; 
+	padding: 3px;
+	width: 400px; 
+	display: inline-block;
+}
+
+#results {
+	display: inline-block; 
+	vertical-align: top;
+	width: 525px; 
+}
+
+#submitButton {
+	background-color: lightgreen;
+	border: solid 2px;
+	border-radius: 15px; 
+	color: green; 
+	width: 75px;
+	font-weight: bold; 
+	padding: 5px; 
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+}
+
+footer {
+	background-color: lightgreen;
+	padding: 10px; 
+	text-align: center; 
+	font-weight: bold; 
+	color: green; 
+}
+
+.container {
+	width: 989px; 
+	margin: 0 auto; 
+	background-color: cyan;
+	padding: 5px; 
+}
